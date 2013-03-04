@@ -1,0 +1,17 @@
+{
+	"name": "morrislaptop/bugsnag-cake",
+	"type": "cakephp-plugin",
+	"description": "CakePHP Bugsnag Notifier.",
+	"keywords": ["cakephp", "bugs"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Craig Morris",
+			"homepage": "http://waww.com.au"
+		}
+	],
+	"require": {
+		"composer/installers": "*",
+		"bugsnag/bugsnag": "1.*",
+	}
+}
