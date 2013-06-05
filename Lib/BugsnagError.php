@@ -1,8 +1,5 @@
 <?php
-
-App::import('Vendor', 'Bugsnag', array('file' => 'bugsnag' . DS . 'bugsnag' . DS . 'lib'. DS . 'bugsnag.php'));
 Bugsnag::register(Configure::read('Bugsnag.apiKey'));
-
 class BugsnagError extends ErrorHandler
 {
     public static function handleError($code, $description, $file = null, $line = null, $context = null) 
